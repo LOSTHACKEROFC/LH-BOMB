@@ -284,7 +284,7 @@ def checkinternet():
         res = True
     if res:
         print("\n\n\tIt Looks That Your Internet Speed is Slow....")
-        print('\t\tPBomb Will Stop Now...\n\n')
+        print('\t\tLH-Bomb Will Stop Now...\n\n')
         banner()
         exit()
 
@@ -427,7 +427,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update PBomb')
+                print('Sorry All APIs Have Expired Please Update LH-Bomb')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -445,7 +445,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To pandahackers127@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To losthackerofc@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -459,7 +459,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Bombs                : ", failed)
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print("                   Use It for fun, not for revenge !!     ")
-        print("             This Bomber Is Maintained By Panda Hackers !!    ")
+        print("             This Bomber Is Maintained By LOST HACKER !!    ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -486,7 +486,7 @@ def update():
     stuff_to_update = ['bomber.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/HACK3RY2J/PBomb/master/" + fl).read()
+            "https://raw.githubusercontent.com/LOSTHACKEROFC/LH-BOMB/master/" + fl).read()
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
@@ -506,7 +506,7 @@ except Exception:
     exit()
 print('\tChecking For Updates...')
 ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/HACK3RY2J/PBomb/master/.version").read().decode('utf-8')
+    "https://raw.githubusercontent.com/LOSTHACKEROFC/LH-BOMB/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -514,14 +514,14 @@ except Exception:
     pass
 if ver != verl:
     print('\n\t\tAn Update is Available....')
-    print('\tUpdating PBomb...')
+    print('\tUpdating LH-BOMB...')
     update()
 print("Congratulation")
 print("Your Version is Up-To-Date")
-print('\n\n\t\t\tBeginning PBomb...\n\n')
+print('\n\n\t\t\tBeginning LH-BOMB...\n\n')
 try:
     noti = urllib.request.urlopen(
-        "https://raw.githubusercontent.com/HACK3RY2J/ultap/master/.notify").read().decode('utf-8')
+        "https://raw.githubusercontent.com/LOSTHACKEROFC/ultap/master/.notify").read().decode('utf-8')
     noti = noti.upper().strip()
     if len(noti) > 10:
         print('\n\n\tNOTIFICATION: ' + noti + '\n\n')
@@ -629,7 +629,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("      Use It for fun, Using For Revenge Is Strictly Prohibited !!                ")
-    print("              This Bomber Is Maintained By Panda Hackers !!                ")
+    print("              This Bomber Is Maintained By LOST Hacker !!                ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Begin Bomber...\n')
@@ -660,4 +660,4 @@ else:
     exit()
 
     
-#A Special Thanks To SpeedX
+#A Special Thanks To LOST HACKER
