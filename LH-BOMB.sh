@@ -113,9 +113,9 @@ echo -e "\e[1;32m Update If Doesn't Work.\e[0m"
 echo  " "
 echo -e "\e[4;31m That's All !!!\e[0m"
 echo -e "\e[1;34m For Any Queries Mail Us!!!\e[0m"
-echo -e "\e[1;32m            Mail: pandahacker127@gmail.com \e[0m"
-echo -e "\e[1;32m       Instagram: https://Instagram.com/Panda_Hackers_official/ \e[0m"
-echo -e "\e[4;32m    YouTube Page: https://www.youtube.com/c/PandaHackers \e[0m"
+echo -e "\e[1;32m            Mail: losthackerofc@gmail.com \e[0m"
+echo -e "\e[1;32m       Instagram: https://Instagram.com/chirag_youtuber_official/ \e[0m"
+echo -e "\e[4;32m    YouTube Page: youtube.com/c/chiragyoutuber \e[0m"
 echo "Press Enter To Return To Main Menu"
 read a3
 clear
