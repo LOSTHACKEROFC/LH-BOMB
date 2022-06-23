@@ -1,4 +1,4 @@
-<h1 align="center">LH-BOMB v1.1</h1>
+<h1 align="center">LH-BOMB v1.2</h1>
 <p align="center">An open-source SMS/call bomber for Linux And Termux.</p><br>
 
 <img src="logo.jpg" alt="LH-BOMB" width="170" />
